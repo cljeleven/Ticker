@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CC4810A8-D608-41F8-9998-0C7851DBB24D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68485153-E961-437E-AE77-5471D2441F60"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JCTicker/JCTickerTests/ColumnManangerTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "testBasicParsing()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "68485153-E961-437E-AE77-5471D2441F60 - 537b86114f866edf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JCTickerTests.ColumnManangerTest.testParsing() throws -&gt; ()"
+                  moduleName = "JCTickerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zexichen/Desktop/Contractor/Acrossor/ticker/JCTicker/JCTickerTests/ColumnManangerTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "68485153-E961-437E-AE77-5471D2441F60 - fdce435f4184b95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JCTickerTests.ColumnManangerTest.testBasicParsing() throws -&gt; ()"
+                  moduleName = "JCTickerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zexichen/Desktop/Contractor/Acrossor/ticker/JCTicker/JCTickerTests/ColumnManangerTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66F83B9D-ED9E-4AF9-91CF-B3E9BD3C9018"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JCTicker/ColumnManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "targetCol(input:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
