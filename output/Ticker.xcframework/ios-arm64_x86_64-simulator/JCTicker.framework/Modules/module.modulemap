@@ -1,0 +1,11 @@
+framework module JCTicker {
+  umbrella header "JCTicker.h"
+
+  export *
+  module * { export * }
+}
+
+module JCTicker.Swift {
+  header "JCTicker-Swift.h"
+  requires objc
+}

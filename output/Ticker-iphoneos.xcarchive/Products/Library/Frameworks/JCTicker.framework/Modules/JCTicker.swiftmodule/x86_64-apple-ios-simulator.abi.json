@@ -1,0 +1,653 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCTicker",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JCTicker"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCTicker",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JCTicker"
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "JCTicker"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UITicker",
+        "printedName": "UITicker",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@JCTicker@objc(cs)UITicker(im)drawRect:",
+            "mangledName": "$s8JCTicker8UITickerC4drawyySo6CGRectVF",
+            "moduleName": "JCTicker",
+            "overriding": true,
+            "objc_name": "drawRect:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setValue",
+            "printedName": "setValue(input:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker8UITickerC8setValue5inputySS_tF",
+            "mangledName": "$s8JCTicker8UITickerC8setValue5inputySS_tF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "animateTo",
+            "printedName": "animateTo(target:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker8UITickerC9animateTo6targetySS_tF",
+            "mangledName": "$s8JCTicker8UITickerC9animateTo6targetySS_tF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDurantion",
+            "printedName": "setDurantion(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker8UITickerC12setDurantionyySdF",
+            "mangledName": "$s8JCTicker8UITickerC12setDurantionyySdF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@JCTicker@objc(cs)UITicker",
+        "mangledName": "$s8JCTicker8UITickerC",
+        "moduleName": "JCTicker",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCTicker",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JCTicker"
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "JCTicker"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TickerColumn",
+        "printedName": "TickerColumn",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker12TickerColumnC4drawyySo6CGRectV_14CoreFoundation7CGFloatVSdtF",
+            "mangledName": "$s8JCTicker12TickerColumnC4drawyySo6CGRectV_12CoreGraphics7CGFloatVSdtF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setValue",
+            "printedName": "setValue(char:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Character",
+                "printedName": "Swift.Character",
+                "usr": "s:SJ"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker12TickerColumnC8setValue4charySJ_tF",
+            "mangledName": "$s8JCTicker12TickerColumnC8setValue4charySJ_tF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setValue",
+            "printedName": "setValue(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker12TickerColumnC8setValue5valueySi_tF",
+            "mangledName": "$s8JCTicker12TickerColumnC8setValue5valueySi_tF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTarget",
+            "printedName": "setTarget(char:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Character",
+                "printedName": "Swift.Character",
+                "usr": "s:SJ"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker12TickerColumnC9setTarget4charySJ_tF",
+            "mangledName": "$s8JCTicker12TickerColumnC9setTarget4charySJ_tF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTarget",
+            "printedName": "setTarget(target:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker12TickerColumnC9setTarget6targetySi_tF",
+            "mangledName": "$s8JCTicker12TickerColumnC9setTarget6targetySi_tF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "goToSpace",
+            "printedName": "goToSpace()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker12TickerColumnC9goToSpaceyyF",
+            "mangledName": "$s8JCTicker12TickerColumnC9goToSpaceyyF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8JCTicker12TickerColumnC",
+        "mangledName": "$s8JCTicker12TickerColumnC",
+        "moduleName": "JCTicker",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "Array",
+      "offset": 322,
+      "length": 61,
+      "value": "[\"9\", \"8\", \"7\", \"6\", \"5\", \"4\", \"3\", \"2\", \"1\", \"0\", \" \", \".\"]"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "FloatLiteral",
+      "offset": 406,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "Array",
+      "offset": 447,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 497,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 531,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 563,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 593,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 625,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 738,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 749,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 781,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 876,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "FloatLiteral",
+      "offset": 906,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 941,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "Array",
+      "offset": 997,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
+      "kind": "Array",
+      "offset": 205,
+      "length": 61,
+      "value": "[\"9\", \"8\", \"7\", \"6\", \"5\", \"4\", \"3\", \"2\", \"1\", \"0\", \" \", \".\"]"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
+      "kind": "FloatLiteral",
+      "offset": 289,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
+      "kind": "IntegerLiteral",
+      "offset": 319,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
+      "kind": "IntegerLiteral",
+      "offset": 353,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
+      "kind": "IntegerLiteral",
+      "offset": 402,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
+      "kind": "IntegerLiteral",
+      "offset": 434,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
+      "kind": "IntegerLiteral",
+      "offset": 467,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
+      "kind": "IntegerLiteral",
+      "offset": 499,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
+      "kind": "IntegerLiteral",
+      "offset": 612,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
+      "kind": "IntegerLiteral",
+      "offset": 623,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
+      "kind": "IntegerLiteral",
+      "offset": 655,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
+      "kind": "IntegerLiteral",
+      "offset": 698,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
+      "kind": "IntegerLiteral",
+      "offset": 709,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios15.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name JCTicker
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import JCTicker
+import SpriteKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class UITicker : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @objc deinit
+}
+extension JCTicker.UITicker {
+  @_Concurrency.MainActor(unsafe) public func setValue(input: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func animateTo(target: Swift.String)
+}
+extension JCTicker.UITicker {
+  @_Concurrency.MainActor(unsafe) public func setDurantion(_ second: Swift.Double)
+}
+@_hasMissingDesignatedInitializers public class TickerColumn {
+  public func draw(_ rect: CoreFoundation.CGRect, _ startX: CoreFoundation.CGFloat, _ animationProgress: Swift.Double)
+  @objc deinit
+}
+extension JCTicker.TickerColumn {
+  public func setValue(char: Swift.Character)
+  public func setValue(value: Swift.Int)
+  public func setTarget(char: Swift.Character)
+  public func setTarget(target: Swift.Int)
+  public func goToSpace()
+}
