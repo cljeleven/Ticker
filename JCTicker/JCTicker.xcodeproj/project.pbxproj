@@ -9,12 +9,10 @@
 /* Begin PBXBuildFile section */
 		86E728B1294446A80042CE86 /* JCTicker.docc in Sources */ = {isa = PBXBuildFile; fileRef = 86E728B0294446A80042CE86 /* JCTicker.docc */; };
 		86E728B7294446A80042CE86 /* JCTicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E728AC294446A80042CE86 /* JCTicker.framework */; };
-		86E728BC294446A80042CE86 /* JCTickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E728BB294446A80042CE86 /* JCTickerTests.swift */; };
 		86E728BD294446A80042CE86 /* JCTicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E728AF294446A80042CE86 /* JCTicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86E72908294446D70042CE86 /* JCTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E72907294446D70042CE86 /* JCTicker.swift */; };
-		86E7290A294449330042CE86 /* ColumnManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E72909294449330042CE86 /* ColumnManager.swift */; };
+		86E72908294446D70042CE86 /* UITicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E72907294446D70042CE86 /* UITicker.swift */; };
 		86E7290C29444B010042CE86 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E7290B29444B010042CE86 /* Extensions.swift */; };
-		86E7290E29444B810042CE86 /* ColumnManangerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E7290D29444B810042CE86 /* ColumnManangerTest.swift */; };
+		86E7291329457CBE0042CE86 /* TickerColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E7290F29451A200042CE86 /* TickerColumn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,11 +30,9 @@
 		86E728AF294446A80042CE86 /* JCTicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCTicker.h; sourceTree = "<group>"; };
 		86E728B0294446A80042CE86 /* JCTicker.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = JCTicker.docc; sourceTree = "<group>"; };
 		86E728B6294446A80042CE86 /* JCTickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCTickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		86E728BB294446A80042CE86 /* JCTickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCTickerTests.swift; sourceTree = "<group>"; };
-		86E72907294446D70042CE86 /* JCTicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCTicker.swift; sourceTree = "<group>"; };
-		86E72909294449330042CE86 /* ColumnManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnManager.swift; sourceTree = "<group>"; };
+		86E72907294446D70042CE86 /* UITicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITicker.swift; sourceTree = "<group>"; };
 		86E7290B29444B010042CE86 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		86E7290D29444B810042CE86 /* ColumnManangerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnManangerTest.swift; sourceTree = "<group>"; };
+		86E7290F29451A200042CE86 /* TickerColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerColumn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				86E7290B29444B010042CE86 /* Extensions.swift */,
-				86E72907294446D70042CE86 /* JCTicker.swift */,
-				86E72909294449330042CE86 /* ColumnManager.swift */,
+				86E72907294446D70042CE86 /* UITicker.swift */,
+				86E7290F29451A200042CE86 /* TickerColumn.swift */,
 				86E728AE294446A80042CE86 /* JCTicker */,
 				86E728BA294446A80042CE86 /* JCTickerTests */,
 				86E728AD294446A80042CE86 /* Products */,
@@ -91,8 +87,6 @@
 		86E728BA294446A80042CE86 /* JCTickerTests */ = {
 			isa = PBXGroup;
 			children = (
-				86E728BB294446A80042CE86 /* JCTickerTests.swift */,
-				86E7290D29444B810042CE86 /* ColumnManangerTest.swift */,
 			);
 			path = JCTickerTests;
 			sourceTree = "<group>";
@@ -206,8 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E72908294446D70042CE86 /* JCTicker.swift in Sources */,
-				86E7290A294449330042CE86 /* ColumnManager.swift in Sources */,
+				86E72908294446D70042CE86 /* UITicker.swift in Sources */,
+				86E7291329457CBE0042CE86 /* TickerColumn.swift in Sources */,
 				86E728B1294446A80042CE86 /* JCTicker.docc in Sources */,
 				86E7290C29444B010042CE86 /* Extensions.swift in Sources */,
 			);
@@ -217,8 +211,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E7290E29444B810042CE86 /* ColumnManangerTest.swift in Sources */,
-				86E728BC294446A80042CE86 /* JCTickerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
