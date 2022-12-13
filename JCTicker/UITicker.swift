@@ -26,6 +26,7 @@ public class UITicker: UIView {
     
     //drawing
     var fullWidth = CGFloat(0)
+    var fullWidthPS = CGFloat(0)
     var targetPointX = CGFloat(0)
     var cellHeight = CGFloat(0)
     var colWidth = CGFloat(0)
@@ -44,6 +45,10 @@ public class UITicker: UIView {
     
     //columns
     var columns: [TickerColumn] = []
+    
+    //suffix
+    var suffix:NSString = ""
+    var suffixCount = CGFloat(0)
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -79,14 +84,23 @@ public class UITicker: UIView {
     
     
     public override func draw(_ rect: CGRect) {
-        let startPointX = (rect.width - self.fullWidth)/2 //start from the right side
+        let startPointX = (rect.width - self.fullWidth)/2 - self.suffixCount * colWidth / 2//start from the right side
         let animX = animationProgress * animateWidth
+ 
         
         //        columns[0].draw(rect, 0, animationProgress
+        var startX = CGFloat(0)
         for (index, col) in columns.enumerated() {
-            let startX = startPointX + CGFloat(index) * colWidth - animX
+            startX = startPointX + CGFloat(index) * colWidth - animX
             col.draw(rect, startX, animationProgress)
         }
+        
+        NSLog("StartPointx = \(startPointX) animX = \(animX)")
+        suffix.draw(at: CGPoint(
+            x: startPointX + self.fullWidth + animX,
+            y:(rect.height - textSize.height)/CGFloat(2)),
+            withAttributes: self.attrs)
+        
     }
 }
 
@@ -95,13 +109,13 @@ extension UITicker {
     public func setValue(input: String) {
         let targets = parseString(input: input)
         self.tickerValue = targets
-        self.fullWidth = CGFloat(targets.count) * colWidth
         columns.removeAll()
         targets.forEach { num in
             var newCol = TickerColumn(attrs)
             newCol.setTarget(target: num)
             columns.append(newCol)
         }
+        self.fullWidth = CGFloat(targets.count) * colWidth
     }
     
     public func animateTo(target: String) {
@@ -127,11 +141,10 @@ extension UITicker {
                 if(index < columns.count) {
                     columns[index].setTarget(target: value)
                 } else {
-                    var newCol = TickerColumn(attrs)
+                    let newCol = TickerColumn(attrs)
                     newCol.setTarget(target: value)
                     columns.append(newCol)
                 }
-                
             }
         } else { //need to remove column
             for (index, col) in columns.enumerated() {
@@ -143,9 +156,16 @@ extension UITicker {
                 }
             }
         }
-        
-        
     }
+    
+    
+    public func setSuffix(_ suffix: String) {
+        self.suffix = NSString(string: suffix)
+        self.suffixCount = CGFloat(suffix.count)
+
+    }
+    
+
 }
 
 
@@ -157,6 +177,7 @@ extension UITicker {
     }
     
     func startAnimation() {
+
         displayLink?.invalidate()
         let displayLink = CADisplayLink(target: self, selector: #selector(update(_:)))
         displayLink.add(to: .main, forMode: .common)
