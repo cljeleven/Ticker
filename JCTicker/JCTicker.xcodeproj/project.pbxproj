@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86539A662948BF2A00228A47 /* Interpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86539A652948BF2A00228A47 /* Interpolator.swift */; };
 		86E728B1294446A80042CE86 /* JCTicker.docc in Sources */ = {isa = PBXBuildFile; fileRef = 86E728B0294446A80042CE86 /* JCTicker.docc */; };
 		86E728B7294446A80042CE86 /* JCTicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E728AC294446A80042CE86 /* JCTicker.framework */; };
 		86E728BD294446A80042CE86 /* JCTicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E728AF294446A80042CE86 /* JCTicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86539A652948BF2A00228A47 /* Interpolator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolator.swift; sourceTree = "<group>"; };
 		86E728AC294446A80042CE86 /* JCTicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCTicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E728AF294446A80042CE86 /* JCTicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCTicker.h; sourceTree = "<group>"; };
 		86E728B0294446A80042CE86 /* JCTicker.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = JCTicker.docc; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		86E728A2294446A80042CE86 = {
 			isa = PBXGroup;
 			children = (
+				86539A652948BF2A00228A47 /* Interpolator.swift */,
 				86E72907294446D70042CE86 /* UITicker.swift */,
 				86E7290F29451A200042CE86 /* TickerColumn.swift */,
 				86E728AE294446A80042CE86 /* JCTicker */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86539A662948BF2A00228A47 /* Interpolator.swift in Sources */,
 				86E72908294446D70042CE86 /* UITicker.swift in Sources */,
 				86E7291329457CBE0042CE86 /* TickerColumn.swift in Sources */,
 				86E728B1294446A80042CE86 /* JCTicker.docc in Sources */,

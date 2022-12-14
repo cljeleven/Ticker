@@ -11,7 +11,7 @@ import SpriteKit
 
 public class TickerColumn {
     //basic setups
-    let members = ["9", "8", "7", "6", "5", "4", "3", "2", "1", "0", " ",  "."]
+    let members = ["9", "8", "7", "6", "5", "4", "3", "2", "1", "0", " ",  " "] //remove . for now
     var animateTime = 1.0 //1 sec
     var current = 10 //10 is space
     var target = 10
@@ -82,7 +82,7 @@ public class TickerColumn {
             NSLog("printing \(element)")
             element.draw(at: CGPoint(
                 x:startX + (element == "." ? (textSize.width-dotSize.width)/2 : 0),
-                y:currentStartY + textStartY),
+                y:currentStartY + (rect.height - textSize.height)/2 + textStartY),
                          withAttributes: attrs)
         }
         

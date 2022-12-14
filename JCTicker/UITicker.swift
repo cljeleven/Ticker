@@ -20,7 +20,7 @@ import SpriteKit
 
 public class UITicker: UIView {
     //basic setups
-    let members = ["9", "8", "7", "6", "5", "4", "3", "2", "1", "0", " ",  "."]
+    let members = ["9", "8", "7", "6", "5", "4", "3", "2", "1", "0", " ",  " "]
     var animateTime = 1.0 //1 sec
     var tickerValue: [Int] = []
     
@@ -42,13 +42,14 @@ public class UITicker: UIView {
     var startTime:CFTimeInterval = 0
     var animationProgress = 1.0
     var animateWidth = CGFloat(0)
-    
+    var interpolator: Interpolator = DecelerateInterpolator()
     //columns
     var columns: [TickerColumn] = []
     
     //suffix
     var suffix:NSString = ""
     var suffixCount = CGFloat(0)
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -105,7 +106,22 @@ public class UITicker: UIView {
 }
 
 
+//public apis
 extension UITicker {
+    
+    public func setDurantion(_ second: Double) {
+        self.animateTime = second
+    }
+    
+    public func setAttributes(_ attrs: [NSAttributedString.Key : Any]?) {
+        self.attrs = attrs
+        
+    }
+    
+    public func setInterpolator(_ interpolator: Interpolator ) {
+        self.interpolator = interpolator
+    }
+    
     public func setValue(input: String) {
         let targets = parseString(input: input)
         self.tickerValue = targets
@@ -130,6 +146,10 @@ extension UITicker {
         updateCols(targets: targets)
         startAnimation()
     }
+}
+
+//set related
+extension UITicker {
     
     func updateCols(targets: [Int]) {
         if(targets.count == columns.count) { //same length
@@ -171,11 +191,7 @@ extension UITicker {
 
 //animation related
 extension UITicker {
-    
-    public func setDurantion(_ second: Double) {
-        self.animateTime = second
-    }
-    
+
     func startAnimation() {
 
         displayLink?.invalidate()
@@ -200,18 +216,15 @@ extension UITicker {
             return
         }
         
-        let interpolation = getInterpolation(percent: timeDiff / self.animateTime)
+        let interpolation = interpolator.interpolate(timeDiff / self.animateTime)
         
-        //  NSLog("intepolation: \(interpolation)")
+          NSLog("intepolation: \(interpolation)")
         self.animationProgress = interpolation
         
         //force redraw
         setNeedsDisplay()
     }
-    //simple decreate interpolation
-    func getInterpolation(percent: Double) -> Double {
-        return (1.0 - pow(1.0 - percent , 5) )
-    }
+
     
     func finishAnimation() {
         stopDisplayLink()
@@ -266,11 +279,5 @@ extension UITicker {
         
         return current
     }
-    
-    func setAttributes(_ attrs: [NSAttributedString.Key : Any]?) {
-        self.attrs = attrs
-        
-    }
-    
     
 }
