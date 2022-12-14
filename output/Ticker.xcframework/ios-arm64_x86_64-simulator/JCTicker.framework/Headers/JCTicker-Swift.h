@@ -264,6 +264,7 @@ SWIFT_CLASS("_TtC8JCTicker8UITicker")
 
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif
@@ -534,6 +535,7 @@ SWIFT_CLASS("_TtC8JCTicker8UITicker")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)drawRect:(CGRect)rect;
 @end
+
 
 
 

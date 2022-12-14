@@ -1,6 +1,9 @@
 ProjectName="Ticker"
 ARCHIVE_PATH="output/"
 SchemeName="JCTicker"
+
+#rm -rf ARCHIVE_PATH
+
 # build iphone framework
 xcodebuild archive \
  -scheme $SchemeName \

@@ -16,6 +16,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		86E3DB332949842C007FCBE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86E3DB2D2949842C007FCBE1 /* JCTicker-Sample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86E728CF294446BF0042CE86;
+			remoteInfo = "JCTicker-Sample";
+		};
+		86E3DB352949842C007FCBE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86E3DB2D2949842C007FCBE1 /* JCTicker-Sample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86E728E5294446C00042CE86;
+			remoteInfo = "JCTicker-SampleTests";
+		};
+		86E3DB372949842C007FCBE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86E3DB2D2949842C007FCBE1 /* JCTicker-Sample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86E728EF294446C00042CE86;
+			remoteInfo = "JCTicker-SampleUITests";
+		};
 		86E728B8294446A80042CE86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 86E728A3294446A80042CE86 /* Project object */;
@@ -27,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		86539A652948BF2A00228A47 /* Interpolator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolator.swift; sourceTree = "<group>"; };
+		86E3DB2D2949842C007FCBE1 /* JCTicker-Sample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "JCTicker-Sample.xcodeproj"; path = "../JCTicker-Sample/JCTicker-Sample.xcodeproj"; sourceTree = "<group>"; };
 		86E728AC294446A80042CE86 /* JCTicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCTicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E728AF294446A80042CE86 /* JCTicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCTicker.h; sourceTree = "<group>"; };
 		86E728B0294446A80042CE86 /* JCTicker.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = JCTicker.docc; sourceTree = "<group>"; };
@@ -54,9 +76,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86E3DB2E2949842C007FCBE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86E3DB342949842C007FCBE1 /* JCTicker-Sample.app */,
+				86E3DB362949842C007FCBE1 /* JCTicker-SampleTests.xctest */,
+				86E3DB382949842C007FCBE1 /* JCTicker-SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		86E728A2294446A80042CE86 = {
 			isa = PBXGroup;
 			children = (
+				86E3DB2D2949842C007FCBE1 /* JCTicker-Sample.xcodeproj */,
 				86539A652948BF2A00228A47 /* Interpolator.swift */,
 				86E72907294446D70042CE86 /* UITicker.swift */,
 				86E7290F29451A200042CE86 /* TickerColumn.swift */,
@@ -170,6 +203,12 @@
 			mainGroup = 86E728A2294446A80042CE86;
 			productRefGroup = 86E728AD294446A80042CE86 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 86E3DB2E2949842C007FCBE1 /* Products */;
+					ProjectRef = 86E3DB2D2949842C007FCBE1 /* JCTicker-Sample.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				86E728AB294446A80042CE86 /* JCTicker */,
@@ -177,6 +216,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		86E3DB342949842C007FCBE1 /* JCTicker-Sample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "JCTicker-Sample.app";
+			remoteRef = 86E3DB332949842C007FCBE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		86E3DB362949842C007FCBE1 /* JCTicker-SampleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "JCTicker-SampleTests.xctest";
+			remoteRef = 86E3DB352949842C007FCBE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		86E3DB382949842C007FCBE1 /* JCTicker-SampleUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "JCTicker-SampleUITests.xctest";
+			remoteRef = 86E3DB372949842C007FCBE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		86E728AA294446A80042CE86 /* Resources */ = {

@@ -9,16 +9,32 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+public protocol Interpolator {
+  func interpolate(_ percent: Swift.Double) -> Swift.Double
+}
+public class DecelerateInterpolator : JCTicker.Interpolator {
+  public init(_ power: Swift.Double = 5.0)
+  public func interpolate(_ percent: Swift.Double) -> Swift.Double
+  @objc deinit
+}
+public class OverShootInterpolator : JCTicker.Interpolator {
+  public init(_ tension: Swift.Double = 2.0)
+  public func interpolate(_ percent: Swift.Double) -> Swift.Double
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class UITicker : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
   @objc deinit
 }
 extension JCTicker.UITicker {
+  @_Concurrency.MainActor(unsafe) public func setDurantion(_ second: Swift.Double)
+  @_Concurrency.MainActor(unsafe) public func setAttributes(_ attrs: [Foundation.NSAttributedString.Key : Any]?)
+  @_Concurrency.MainActor(unsafe) public func setInterpolator(_ interpolator: JCTicker.Interpolator)
   @_Concurrency.MainActor(unsafe) public func setValue(input: Swift.String)
   @_Concurrency.MainActor(unsafe) public func animateTo(target: Swift.String)
 }
 extension JCTicker.UITicker {
-  @_Concurrency.MainActor(unsafe) public func setDurantion(_ second: Swift.Double)
+  @_Concurrency.MainActor(unsafe) public func setSuffix(_ suffix: Swift.String)
 }
 @_hasMissingDesignatedInitializers public class TickerColumn {
   public func draw(_ rect: CoreFoundation.CGRect, _ startX: CoreFoundation.CGFloat, _ animationProgress: Swift.Double)

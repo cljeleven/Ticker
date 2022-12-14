@@ -15,6 +15,214 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "Interpolator",
+        "printedName": "Interpolator",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "interpolate",
+            "printedName": "interpolate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker12InterpolatorP11interpolateyS2dF",
+            "mangledName": "$s8JCTicker12InterpolatorP11interpolateyS2dF",
+            "moduleName": "JCTicker",
+            "genericSig": "<τ_0_0 where τ_0_0 : JCTicker.Interpolator>",
+            "sugared_genericSig": "<Self where Self : JCTicker.Interpolator>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8JCTicker12InterpolatorP",
+        "mangledName": "$s8JCTicker12InterpolatorP",
+        "moduleName": "JCTicker",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DecelerateInterpolator",
+        "printedName": "DecelerateInterpolator",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DecelerateInterpolator",
+                "printedName": "JCTicker.DecelerateInterpolator",
+                "usr": "s:8JCTicker22DecelerateInterpolatorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8JCTicker22DecelerateInterpolatorCyACSdcfc",
+            "mangledName": "$s8JCTicker22DecelerateInterpolatorCyACSdcfc",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "interpolate",
+            "printedName": "interpolate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker22DecelerateInterpolatorC11interpolateyS2dF",
+            "mangledName": "$s8JCTicker22DecelerateInterpolatorC11interpolateyS2dF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8JCTicker22DecelerateInterpolatorC",
+        "mangledName": "$s8JCTicker22DecelerateInterpolatorC",
+        "moduleName": "JCTicker",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Interpolator",
+            "printedName": "Interpolator",
+            "usr": "s:8JCTicker12InterpolatorP",
+            "mangledName": "$s8JCTicker12InterpolatorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OverShootInterpolator",
+        "printedName": "OverShootInterpolator",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OverShootInterpolator",
+                "printedName": "JCTicker.OverShootInterpolator",
+                "usr": "s:8JCTicker21OverShootInterpolatorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8JCTicker21OverShootInterpolatorCyACSdcfc",
+            "mangledName": "$s8JCTicker21OverShootInterpolatorCyACSdcfc",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "interpolate",
+            "printedName": "interpolate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker21OverShootInterpolatorC11interpolateyS2dF",
+            "mangledName": "$s8JCTicker21OverShootInterpolatorC11interpolateyS2dF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8JCTicker21OverShootInterpolatorC",
+        "mangledName": "$s8JCTicker21OverShootInterpolatorC",
+        "moduleName": "JCTicker",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Interpolator",
+            "printedName": "Interpolator",
+            "usr": "s:8JCTicker12InterpolatorP",
+            "mangledName": "$s8JCTicker12InterpolatorP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCTicker",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -84,6 +292,111 @@
           },
           {
             "kind": "Function",
+            "name": "setDurantion",
+            "printedName": "setDurantion(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker8UITickerC12setDurantionyySdF",
+            "mangledName": "$s8JCTicker8UITickerC12setDurantionyySdF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAttributes",
+            "printedName": "setAttributes(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSAttributedString.Key : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSAttributedString.Key : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Key",
+                        "printedName": "Foundation.NSAttributedString.Key",
+                        "usr": "c:@T@NSAttributedStringKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker8UITickerC13setAttributesyySDySo21NSAttributedStringKeyaypGSgF",
+            "mangledName": "$s8JCTicker8UITickerC13setAttributesyySDySo21NSAttributedStringKeyaypGSgF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setInterpolator",
+            "printedName": "setInterpolator(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Interpolator",
+                "printedName": "JCTicker.Interpolator",
+                "usr": "s:8JCTicker12InterpolatorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker8UITickerC15setInterpolatoryyAA0D0_pF",
+            "mangledName": "$s8JCTicker8UITickerC15setInterpolatoryyAA0D0_pF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setValue",
             "printedName": "setValue(input:)",
             "children": [
@@ -140,8 +453,8 @@
           },
           {
             "kind": "Function",
-            "name": "setDurantion",
-            "printedName": "setDurantion(_:)",
+            "name": "setSuffix",
+            "printedName": "setSuffix(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -150,14 +463,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8JCTicker8UITickerC12setDurantionyySdF",
-            "mangledName": "$s8JCTicker8UITickerC12setDurantionyySdF",
+            "usr": "s:8JCTicker8UITickerC9setSuffixyySSF",
+            "mangledName": "$s8JCTicker8UITickerC9setSuffixyySSF",
             "moduleName": "JCTicker",
             "declAttributes": [
               "Custom",
@@ -454,11 +767,39 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/Interpolator.swift",
+      "kind": "FloatLiteral",
+      "offset": 269,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/Interpolator.swift",
+      "kind": "FloatLiteral",
+      "offset": 307,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/Interpolator.swift",
+      "kind": "FloatLiteral",
+      "offset": 556,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/Interpolator.swift",
+      "kind": "FloatLiteral",
+      "offset": 596,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
       "kind": "Array",
       "offset": 322,
       "length": 61,
-      "value": "[\"9\", \"8\", \"7\", \"6\", \"5\", \"4\", \"3\", \"2\", \"1\", \"0\", \" \", \".\"]"
+      "value": "[\"9\", \"8\", \"7\", \"6\", \"5\", \"4\", \"3\", \"2\", \"1\", \"0\", \" \", \" \"]"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
@@ -484,168 +825,189 @@
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
       "kind": "IntegerLiteral",
-      "offset": 531,
+      "offset": 530,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
       "kind": "IntegerLiteral",
-      "offset": 563,
+      "offset": 564,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
       "kind": "IntegerLiteral",
-      "offset": 593,
+      "offset": 596,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
       "kind": "IntegerLiteral",
-      "offset": 625,
+      "offset": 626,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
       "kind": "IntegerLiteral",
-      "offset": 738,
+      "offset": 658,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
       "kind": "IntegerLiteral",
-      "offset": 749,
+      "offset": 771,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
       "kind": "IntegerLiteral",
-      "offset": 781,
+      "offset": 782,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
       "kind": "IntegerLiteral",
-      "offset": 876,
+      "offset": 814,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 909,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
       "kind": "FloatLiteral",
-      "offset": 906,
+      "offset": 939,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
       "kind": "IntegerLiteral",
-      "offset": 941,
+      "offset": 974,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
       "kind": "Array",
-      "offset": 997,
+      "offset": 1087,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "StringLiteral",
+      "offset": 1134,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/UITicker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1167,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
       "kind": "Array",
       "offset": 205,
       "length": 61,
-      "value": "[\"9\", \"8\", \"7\", \"6\", \"5\", \"4\", \"3\", \"2\", \"1\", \"0\", \" \", \".\"]"
+      "value": "[\"9\", \"8\", \"7\", \"6\", \"5\", \"4\", \"3\", \"2\", \"1\", \"0\", \" \", \" \"]"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
       "kind": "FloatLiteral",
-      "offset": 289,
+      "offset": 308,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
       "kind": "IntegerLiteral",
-      "offset": 319,
+      "offset": 338,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
       "kind": "IntegerLiteral",
-      "offset": 353,
+      "offset": 372,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
       "kind": "IntegerLiteral",
-      "offset": 402,
+      "offset": 421,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
       "kind": "IntegerLiteral",
-      "offset": 434,
+      "offset": 453,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
       "kind": "IntegerLiteral",
-      "offset": 467,
+      "offset": 486,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
       "kind": "IntegerLiteral",
-      "offset": 499,
+      "offset": 518,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
       "kind": "IntegerLiteral",
-      "offset": 612,
+      "offset": 631,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
       "kind": "IntegerLiteral",
-      "offset": 623,
+      "offset": 642,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
       "kind": "IntegerLiteral",
-      "offset": 655,
+      "offset": 674,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
       "kind": "IntegerLiteral",
-      "offset": 698,
+      "offset": 717,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zexichen\/Desktop\/Contractor\/ticker\/JCTicker\/TickerColumn.swift",
       "kind": "IntegerLiteral",
-      "offset": 709,
+      "offset": 728,
       "length": 1,
       "value": "0"
     }
