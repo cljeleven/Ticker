@@ -115,7 +115,23 @@ extension UITicker {
     
     public func setAttributes(_ attrs: [NSAttributedString.Key : Any]?) {
         self.attrs = attrs
-        
+        columns.forEach { col in
+            col.setAttributes(attrs)
+        }
+    }
+
+    public func setFont(_ font: UIFont) {
+        self.attrs?[NSAttributedString.Key.font] = font
+        columns.forEach { col in
+            col.setAttributes(attrs)
+        }
+    }
+
+    public func setTextColor(_ color: UIColor) {
+        self.attrs?[NSAttributedString.Key.foregroundColor] = color
+        columns.forEach { col in
+            col.setAttributes(attrs)
+        }
     }
     
     public func setInterpolator(_ interpolator: Interpolator ) {
@@ -135,6 +151,7 @@ extension UITicker {
     }
     
     public func animateTo(target: String) {
+        finishAnimation()
         let targets = parseString(input: target)
         if(self.tickerValue.count != 0) {
             self.animateWidth = CGFloat(targets.count - self.tickerValue.count) * colWidth / 2
