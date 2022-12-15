@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/JCTicker.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MvSl5t1GPvslQx6zsIb1JQcEN8A=
+		p7tvhHJRj0l1MxXk0Wuayvb6xmY=
 		</data>
 		<key>Modules/JCTicker.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		YpcB4mT6BsDAsM//3m0CZ9QmuI4=
+		CBWlacu/j9EBo9Z3vpDQD+jBm/E=
 		</data>
 		<key>Modules/JCTicker.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/JCTicker.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YpcB4mT6BsDAsM//3m0CZ9QmuI4=
+		CBWlacu/j9EBo9Z3vpDQD+jBm/E=
 		</data>
 		<key>Modules/JCTicker.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		S1Bb5MDzH4J7OXp/v0BDTwbJhtw=
+		7XrpkpbLa0l4nFRihiqUfvwdKMk=
 		</data>
 		<key>Modules/JCTicker.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MvSl5t1GPvslQx6zsIb1JQcEN8A=
+		p7tvhHJRj0l1MxXk0Wuayvb6xmY=
 		</data>
 		<key>Modules/JCTicker.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		goEfbNusKwEtXTFGWad8CLVFYTU=
+		yZCO56YKrISaICCUTqAAhit5Dhk=
 		</data>
 		<key>Modules/JCTicker.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/JCTicker.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		goEfbNusKwEtXTFGWad8CLVFYTU=
+		yZCO56YKrISaICCUTqAAhit5Dhk=
 		</data>
 		<key>Modules/JCTicker.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aX41GlwaG/lnKwT11r1Iv91cFaI=
+		0nutRu+EaBHNv+qaSKtHBNseOrc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tia2KTOwYnRLgfUYh58jJX5kh9sOjBgAGR+M6A7SPpw=
+			Ctffc5rXUAQf1VO3PA3Xo3ALjA5+uH6erMWROVQs/uY=
 			</data>
 		</dict>
 		<key>Modules/JCTicker.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+qjwojQCifaHSwHJnHxps0TDIKx7G0kkiP9P8+vowwY=
+			3EIle9oWTOPL/0uXJE90b10sPs+ocajQxJE2iTHT5KA=
 			</data>
 		</dict>
 		<key>Modules/JCTicker.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+qjwojQCifaHSwHJnHxps0TDIKx7G0kkiP9P8+vowwY=
+			3EIle9oWTOPL/0uXJE90b10sPs+ocajQxJE2iTHT5KA=
 			</data>
 		</dict>
 		<key>Modules/JCTicker.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AIhKOqaM0inJSjR1hoTd+gsPgzXDixF1ftbNrTRSda4=
+			7qMg3rTFnZsxbr52wbOjia57wkzRhzHyj0vRTnBRjTE=
 			</data>
 		</dict>
 		<key>Modules/JCTicker.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tia2KTOwYnRLgfUYh58jJX5kh9sOjBgAGR+M6A7SPpw=
+			Ctffc5rXUAQf1VO3PA3Xo3ALjA5+uH6erMWROVQs/uY=
 			</data>
 		</dict>
 		<key>Modules/JCTicker.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lEf0gqWuBhgBSHPV/Wbn6R4Ilr6Phdca908x7k04yhI=
+			QCPTcwyelihtTKrF5knyXd0u/CANCUE74isJx5mib+Q=
 			</data>
 		</dict>
 		<key>Modules/JCTicker.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lEf0gqWuBhgBSHPV/Wbn6R4Ilr6Phdca908x7k04yhI=
+			QCPTcwyelihtTKrF5knyXd0u/CANCUE74isJx5mib+Q=
 			</data>
 		</dict>
 		<key>Modules/JCTicker.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FssPZNeX2WicXG5mbOEYY2oVusgyJdYfzj2S/bwYOXY=
+			XkTF9YV1ND/PwOfgYeH5Zk+JfyeEEKNSV8dHnOxfHEc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

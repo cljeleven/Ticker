@@ -369,6 +369,62 @@
           },
           {
             "kind": "Function",
+            "name": "setFont",
+            "printedName": "setFont(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker8UITickerC7setFontyySo6UIFontCF",
+            "mangledName": "$s8JCTicker8UITickerC7setFontyySo6UIFontCF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTextColor",
+            "printedName": "setTextColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8JCTicker8UITickerC12setTextColoryySo7UIColorCF",
+            "mangledName": "$s8JCTicker8UITickerC12setTextColoryySo7UIColorCF",
+            "moduleName": "JCTicker",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setInterpolator",
             "printedName": "setInterpolator(_:)",
             "children": [

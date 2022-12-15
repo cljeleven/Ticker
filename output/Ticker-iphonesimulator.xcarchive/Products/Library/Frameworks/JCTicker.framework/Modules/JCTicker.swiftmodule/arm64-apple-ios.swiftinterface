@@ -29,6 +29,8 @@ public class OverShootInterpolator : JCTicker.Interpolator {
 extension JCTicker.UITicker {
   @_Concurrency.MainActor(unsafe) public func setDurantion(_ second: Swift.Double)
   @_Concurrency.MainActor(unsafe) public func setAttributes(_ attrs: [Foundation.NSAttributedString.Key : Any]?)
+  @_Concurrency.MainActor(unsafe) public func setFont(_ font: UIKit.UIFont)
+  @_Concurrency.MainActor(unsafe) public func setTextColor(_ color: UIKit.UIColor)
   @_Concurrency.MainActor(unsafe) public func setInterpolator(_ interpolator: JCTicker.Interpolator)
   @_Concurrency.MainActor(unsafe) public func setValue(input: Swift.String)
   @_Concurrency.MainActor(unsafe) public func animateTo(target: Swift.String)
