@@ -81,7 +81,7 @@ public class TickerColumn {
             //print the text
             NSLog("printing \(element)")
             element.draw(at: CGPoint(
-                x:startX + (element == "." ? (textSize.width-dotSize.width)/2 : 0),
+                x:startX + (element == "." ? (textSize.width-dotSize.width)/2 : (textSize.width-element.size(withAttributes: self.attrs).width)/2),
                 y:currentStartY + (rect.height - textSize.height)/2 + textStartY),
                          withAttributes: attrs)
         }

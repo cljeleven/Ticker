@@ -71,7 +71,7 @@ public class UITicker: UIView {
         attrs=[NSAttributedString.Key.font:font, NSAttributedString.Key.paragraphStyle:text_style, NSAttributedString.Key.foregroundColor:text_color]
         
         self.textSize = "8".size(withAttributes: self.attrs)
-        self.colPadding = textSize.width * CGFloat(0.05) //use 5% of width as total
+        self.colPadding = textSize.width * CGFloat(0.00) //no padding 
         self.colWidth = textSize.width + colPadding
         
         
